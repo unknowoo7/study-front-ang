@@ -1,0 +1,44 @@
+<!--<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">-->
+<!--  <label for="first-name">First name: </label>-->
+<!--  <input id="first-name" type="text" formControlName="firstName" />-->
+
+<!--  <label for="last-name">Last name: </label>-->
+<!--  <input id="last-name" type="text" formControlName="lastName" />-->
+
+<!--  <div formGroupName="address">-->
+<!--    <h2>Address</h2>-->
+
+<!--    <label for="street">Street:</label>-->
+<!--    <input id="street" type="text" formControlName="street">-->
+
+<!--    <label for="city">City:</label>-->
+<!--    <input id="city" type="text" formControlName="city">-->
+
+<!--    <label for="state">State:</label>-->
+<!--    <input id="state" type="text" formControlName="state">-->
+
+<!--    <label for="zipCode">Zip code:</label>-->
+<!--    <input id="zipCode" type="text" formControlName="zipCode">-->
+
+<!--  </div>-->
+
+<!--  <div formArrayName="aliases">-->
+<!--    <h2>Aliases</h2>-->
+
+<!--    <button (click)="addAlias()">[+] Add control</button>-->
+
+<!--    @for (alias of aliases.controls; track $index; let i = $index) {-->
+<!--      <div>-->
+<!--        <label for="alias-{{ i }}">Alias: </label>-->
+<!--        <input id="alias-{{ i }}" type="text" [formControlName]="i">-->
+<!--        <p>Value: {{ alias.value }}</p>-->
+<!--      </div>-->
+<!--    }-->
+<!--  </div>-->
+
+<!--  <p>{{profileForm.status}}</p>-->
+
+<!--  <button type="button" (click)="updateProfile()">Update</button>-->
+
+<!--  <button type="submit" [disabled]="profileForm.invalid">Submit</button>-->
+<!--</form>-->

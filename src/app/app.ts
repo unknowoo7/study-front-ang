@@ -1,9 +1,11 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {Component} from '@angular/core';
+import {ReactiveFavoriteColor} from './reactive-favorite-color/reactive-favorite-color';
+import {ProfileEditor} from './profile-editor/profile-editor';
+import {ActorForm} from './actor-form/actor-form';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [ReactiveFavoriteColor, ProfileEditor, ActorForm],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
